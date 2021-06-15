@@ -9,7 +9,7 @@ module.exports = {
 				console.log("Error: You've already index.js file in your project.")
 			}
 			else {
-				fs.copyFile('index-copy.js', 'index.js', (err) => {
+				fs.copyFile('./node_modules/discord-handler-generator/templates/index-copy.js', 'index.js', (err) => {
 					if (err) throw err;
 				});
 			}
@@ -17,10 +17,10 @@ module.exports = {
 			console.error(err)
 		}
 		
-		fs.copyFile('command-copy.js', 'commands/command_example.js', (err) => {
+		fs.copyFile('./node_modules/discord-handler-generator/templates/command-copy.js', 'commands/command_example.js', (err) => {
 			if (err) throw err;
 		});
-		fs.copyFile('event-copy.js', 'events/event_example.js', (err) => {
+		fs.copyFile('./node_modules/discord-handler-generator/templates/event-copy.js', 'events/event_example.js', (err) => {
 			if (err) throw err;
 		});
 	}
