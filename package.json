@@ -12,6 +12,7 @@
   },
   "author": "Bycop#4757",
   "license": "ISC",
+  "keywords": ["Discord", "Handler", "Discord.js", "fs"],
   "bugs": {
     "url": "https://github.com/bycop/discord-handler-generator/issues"
   },
