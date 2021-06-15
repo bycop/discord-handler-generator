@@ -1,6 +1,6 @@
 {
   "name": "discord-handler-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to generator command handler easily for Discord.js",
   "main": "index.js",
   "scripts": {
