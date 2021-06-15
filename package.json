@@ -1,0 +1,22 @@
+{
+  "name": "discord-handler-generator",
+  "version": "1.0.0",
+  "description": "A tool to generator command handler easily for Discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bycop/discord-handler-generator.git"
+  },
+  "author": "Bycop#4757",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bycop/discord-handler-generator/issues"
+  },
+  "homepage": "https://github.com/bycop/discord-handler-generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
