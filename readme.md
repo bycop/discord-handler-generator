@@ -1,4 +1,5 @@
 # discord-handler-generator
+<a href="https://www.npmjs.com/package/discord-handler-generator"><img src="https://img.shields.io/npm/dt/discord-handler-generator.svg?maxAge=3600" alt="NPM downloads" /></a>
 
 ## About
 
